@@ -1,31 +1,22 @@
-import java.util.Scanner;
-
 public class BasicTest {
 
-    public static void main(String[] args) {
-        ActivationFunction sig = new SigmoidFunction();
-        ActivationFunction diffSig = new SigmoidDifferentationFunction();
-        Double alpha = 0.8;
-        Node n1 = new Node(sig, diffSig, alpha);
-        Node n2 = new Node(sig, diffSig, alpha);
+  // last entry is the expected output.
+  private static double[][] trainingData = {
+      {2.7810836, 2.550537003, 0},
+      {1.465489372, 2.362125076, 0},
+      {3.396561688, 4.400293529, 0},
+      {1.38807019, 1.850220317, 0},
+      {3.06407232, 3.005305973, 0},
+      {7.627531214, 2.759262235, 1},
+      {5.332441248, 2.088626775, 1},
+      {6.922596716, 1.77106367, 1},
+      {8.675418651, -0.242068655, 1},
+      {7.673756466, 3.508563011, 1}
+  };
 
-        InputNode i1 = new InputNode("Enter first number [0,1]",sig,diffSig,alpha);
-        InputNode i2 = new InputNode("Enter second number [0,1]",sig,diffSig,alpha);
-
-
-        OutputNode o1 = new OutputNode(sig, diffSig, alpha);
-
-        n1.addInputEdge(i1, 1.0);
-        n1.addInputEdge(i2, -1.0);
-
-        n2.addInputEdge(i1, -1.0);
-        n2.addInputEdge(i2, 1.0);
-
-        o1.addInputEdge(n1, 1.0);
-        o1.addInputEdge(n2, 1.0);
-
-        System.out.println("Output: " + o1.getOutput()s);
-
-    }
-
+  public static void main(String[] args) {
+    Network network = new Network(2, 2, 2);
+    network.trainNetwork(trainingData, 0.5, 2000);
+    System.out.println(network);
+  }
 }

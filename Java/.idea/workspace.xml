@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9982ec2e-c1ec-46e0-8236-491711c6b278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Neuron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StepFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActivationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ActivationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiasWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BooleanActivationFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InputNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OutputNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SigmoidDifferentationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/SigmoidDifferentationFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SigmoidFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/SigmoidFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Java/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/BasicTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12202" />
+          <entry key="java" value="12414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12202" />
+          <entry key="JAVA" value="12414" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="61">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -70,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Network.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+            <state relative-caret-position="618">
+              <caret line="186" column="3" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3338#3339#0" expanded="true" />
@@ -174,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597507584337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597576040234" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -226,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1596987551356</updated>
       <workItem from="1596987552691" duration="11047000" />
-      <workItem from="1597071583881" duration="9232000" />
+      <workItem from="1597071583881" duration="9653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20279000" />
+    <option name="totallyTimeSpent" value="20700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -246,7 +234,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7070064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7070064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50955415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,7 +242,7 @@
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Network.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+        <state relative-caret-position="618">
+          <caret line="186" column="3" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3338#3339#0" expanded="true" />
@@ -356,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="61">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>

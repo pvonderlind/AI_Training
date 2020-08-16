@@ -16,7 +16,7 @@ public class BasicTest {
 
   public static void main(String[] args) {
     Network network = new Network(2, 2, 2);
-    network.trainNetwork(trainingData, 0.5, 2000);
+    network.trainNetwork(trainingData, 0.5, 100);
     System.out.println(network);
   }
 }
